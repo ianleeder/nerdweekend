@@ -4,12 +4,20 @@
 
 layout: default
 ---
-This is an empty page
+# Current Proposal
 
-<ul>
+Details of poll dates here
+
+# History
+
+<table>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    <tr>
+      <td>foo</td>
+      <td>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </td>
+      <td>bar</td>
+    </tr>
   {% endfor %}
-</ul>
+</table>
