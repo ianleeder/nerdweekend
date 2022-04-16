@@ -10,26 +10,13 @@ Details of poll dates here
 
 # History
 
-<table>
-  {% for post in site.posts %}
-    <tr>
-      <td>foo</td>
-      <td>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </td>
-      <td>bar</td>
-    </tr>
-  {% endfor %}
-</table>
+<!-- 
+  Creating markdown table inside Jekyll loop:
+  https://stackoverflow.com/a/35643035/5329728
+-->
 
-<table>
-  {% for date in site.data.dates.dates %}
-    <tr>
-      <td>foo</td>
-      <td>
-      {{ date.date }}
-      </td>
-      <td>bar</td>
-    </tr>
-  {% endfor %}
-</table>
+| Date | Venue | Memories
+|---|---|---|
+{% for date in site.data.dates.dates -%}
+| {{ date.date }} | {{date.location}} |
+{%- endfor -%}
