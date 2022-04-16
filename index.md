@@ -21,3 +21,15 @@ Details of poll dates here
     </tr>
   {% endfor %}
 </table>
+
+<table>
+  {% for date in site.data.dates.dates %}
+    <tr>
+      <td>foo</td>
+      <td>
+      {{ date.date }}
+      </td>
+      <td>bar</td>
+    </tr>
+  {% endfor %}
+</table>
