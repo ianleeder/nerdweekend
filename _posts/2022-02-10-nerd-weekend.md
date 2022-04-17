@@ -9,6 +9,7 @@ games:
   - game: "Heroquest"
     memories:
       - memory: "Smith attacking Hugh"
-show_link: true
+show_link: false
 ---
-Test
+See this page for a good idea for a photo gallery:  
+[https://learn.cloudcannon.com/jekyll/photo-gallery/](https://learn.cloudcannon.com/jekyll/photo-gallery/)
