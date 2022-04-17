@@ -13,7 +13,7 @@ Details of poll dates here
 | Date | Venue | Memories |
 |---|---|---|
 {% for post in site.posts -%}
-| {{ post.date }} | {{post.title}} | {{post.venue}} |
+| {{ post.date_range }} | {{post.venue}} | {{post.venue}} |
 {% endfor %}
 
 <ul>
