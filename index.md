@@ -21,5 +21,5 @@ Details of poll dates here
 | Date | Venue | Memories |
 |---|---|---|
 {% for post in site.posts -%}
-| {{ post.date_range }} | {{post.venue}} | {% if post.show_link %}[Pics]({{post.url}}) {% endif %}{::nomarkdown}<ul>{% for game in post.games -%} <li>{{game.game}} {% if game.memories %} <ul> {% for memory in game.memories -%}<li>{{memory.memory}}</li>{% endfor %}</ul> {% endif %}</li> {% endfor %} </ul>{:/} |
+| {{ post.date_range }} | {{post.venue}} | {% if post.show_link %}[Pics]({{post.url}}) {% endif %}{::nomarkdown}<ul>{% for memory in post.memories -%} <li>{{memory.memory}} {% if memory.related %} <ul> {% for related in memory.related -%}<li>{{related.related}}</li>{% endfor %}</ul> {% endif %}</li> {% endfor %} </ul>{:/} |
 {% endfor %}
