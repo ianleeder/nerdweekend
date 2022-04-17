@@ -9,8 +9,6 @@ games:
   - game: "Heroquest"
     memories:
       - memory: "Smith attacking Hugh"
-memories:
-  - memory: "Smith gets alcohol poisoning"
-  - memory: "6-hour game of Talisman"
+show_link: true
 ---
 Test
