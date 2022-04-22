@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+title: "Nerd Weekend!"
 ---
 # Current Proposal
 
@@ -18,8 +19,8 @@ Details of poll dates here
   https://stackoverflow.com/a/57904161/5329728
 -->
 
-| Date | Venue | Memories |
+| Date | Venue | Summary |
 |---|---|---|
 {% for post in site.posts -%}
-| {{ post.date_range }} | {{post.venue}} | {% if post.show_link %}[Pics]({{post.url}}) {% endif %}{::nomarkdown}<ul>{% for memory in post.memories -%} <li>{{memory.memory}} {% if memory.related %} <ul> {% for related in memory.related -%}<li>{{related.related}}</li>{% endfor %}</ul> {% endif %}</li> {% endfor %} </ul>{:/} |
+| [{{ post.date_range }}]({{post.url}}) | {{post.venue}} | {{post.summary}} |
 {% endfor %}
