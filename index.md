@@ -22,5 +22,15 @@ Details of poll dates here
 | Date | Venue | Summary |
 |---|---|---|
 {% for post in site.posts -%}
-| [{{ post.date_range }}]({{post.url}}) | {{post.venue}} | {{post.summary}} |
+| [{{ post.title }}]({{post.url}}) | {{post.venue}} | {{post.summary}} |
 {% endfor %}
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a><br>
+      <em>{{post.venue}}</em><br>
+      {{post.summary}}
+    </li>
+  {% endfor %}
+</ul>
