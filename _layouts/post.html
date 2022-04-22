@@ -10,4 +10,16 @@ layout: default
 
 <p>Venue: {{page.venue}}</p>
 
+<h2>Games</h2>
+<ul>
+    {% for game in page.games %}
+    <li>{{ game }}</li>
+    {% endfor %}
+</ul>
+<h2>Memories</h2>
+<ul>
+    {% for memory in page.memories %}
+    <li>{{ memory }}</li>
+    {% endfor %}
+</ul>
 {{content}}
