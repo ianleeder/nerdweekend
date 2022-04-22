@@ -2,13 +2,17 @@
 layout: post
 title: "February 2018"
 date_range: "22-25 Feb 2018"
-venue: "Sorrento holiday house"
+venue: "Smith's house"
 games:
-  - "OTTD"
+  - "Civ4"
+  - "Factorio"
 memories:
-  - "Hugh eating flaky pastry on the toilet."
-  - "Smith stumbling drunk into Toby's bedroom, passing out, and snoring so loudly Toby had to move."
-  - "Hugh smashing us at OTTD by just flying planes from one side of the map to the other."
-  - "Week before Hugh's bucks party"
-summary: "OTTD in Sorrento."
+  - "First nerd weekend to use Doodle!"
+  - "Playing something like 14hours straight of Civ4 to finish the game by completing the space station.<br>Smith adamant that Toby and Ian conspired for peace in the U.N. behind his back."
+  - "Smith had to work Friday.  Hugh and Ian played Factorio all night on Thursday night, and greeted Smith Friday morning with a fresh beer"
+  - "Off beers that tasted like honey."
+  - "Cinnamon/honey bourbon?"
+  - "Half a pigs head on the kitchen bench."
+summary: "Playing Civ4 to completion despite Smith's best intentions."
+img_dir: "2018-02"
 ---
