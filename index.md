@@ -17,10 +17,25 @@ Details of poll dates here
 
   Embedding list inside table:
   https://stackoverflow.com/a/57904161/5329728
+
+  Set table column width:
+  https://stackoverflow.com/a/57420043/5329728
 -->
 
-| Date | Venue | Summary |
+| {::nomarkdown}<div style="width:175px">Date</div>{:/} | {::nomarkdown}<div style="width:175px">Venue</div>{:/}  | Summary |
 |---|---|---|
 {% for post in site.posts -%}
-| [{{ post.date_range }}]({{post.url}}) | {{post.venue}} | {{post.summary}} |
+| [{{ post.title }}]({{post.url}}) {% if post.img_dir %}<br>(PICS) {% endif %} | {{post.venue}} | {{post.summary}} |
 {% endfor %}
+
+<!-- 
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a><br>
+      <em>{{post.venue}}</em><br>
+      {{post.summary}}
+    </li>
+  {% endfor %}
+</ul>
+-->

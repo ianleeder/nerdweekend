@@ -9,12 +9,21 @@ layout: default
 
 <h2>Games</h2>
 <ul>
+    {% if page.games == null %}
+    <li>Hmm, no games.  Too much beer...</li>
+    {% endif %}
+
     {% for game in page.games %}
     <li>{{ game }}</li>
     {% endfor %}
 </ul>
+
 <h2>Memories</h2>
 <ul>
+    {% if page.memories == null %}
+    <li>Hmm, no memories.  Too much beer...</li>
+    {% endif %}
+
     {% for memory in page.memories %}
     <li>{{ memory }}</li>
     {% endfor %}
@@ -22,18 +31,17 @@ layout: default
 
 {% if page.img_dir %}
 <h2>Photographic Evidence</h2>
-<ul>
+<div class ="image-gallery">
     {% for static_file in site.static_files %}
-        {% if static_file.path contains page.img_dir %}
-            <li><img src="{{ static_file.path }}" alt="{{ static_file.name}}"/></li>
-        {% endif %}
+    {% if static_file.path contains page.img_dir %}
+    <div class="box">
+        <a href="{{ static_file.path }}">
+            <img src="{{ static_file.path }} " alt="{{ static_file.name }}"  class="img-gallery" />
+        </a>
+    </div>
+    {% endif %}
     {% endfor %}
-</ul>
+</div>
 {% endif %}
 
 {{content}}
-
-
-
-See this page for a good idea for a photo gallery:<br>
-https://learn.cloudcannon.com/jekyll/photo-gallery/
