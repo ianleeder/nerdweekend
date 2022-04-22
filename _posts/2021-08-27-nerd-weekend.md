@@ -10,5 +10,6 @@ memories:
   - "Ian 'isolated' at Toby's as a 'single person bubble'. <br>All others played online."
   - "Used ZeroTier VPN and Discord for audio"
   - "Toby's PC struggled with Rimsworld and kept falling behind/out of sync."
+  - "Dave ordered KFC delivered to Toby's house"
 summary: "Mostly remote, mostly Stellaris"
 ---
