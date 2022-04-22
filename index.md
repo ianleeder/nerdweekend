@@ -22,7 +22,7 @@ Details of poll dates here
   https://stackoverflow.com/a/57420043/5329728
 -->
 
-| {::nomarkdown}<div style="width:175px">Date</div>{:/} | Venue | Summary |
+| {::nomarkdown}<div style="width:175px">Date</div>{:/} | {::nomarkdown}<div style="width:175px">Venue</div>{:/}  | Summary |
 |---|---|---|
 {% for post in site.posts -%}
 | [{{ post.title }}]({{post.url}}) | {{post.venue}} | {{post.summary}} |
