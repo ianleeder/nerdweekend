@@ -9,12 +9,21 @@ layout: default
 
 <h2>Games</h2>
 <ul>
+    {% if page.games == null %}
+    <li>Hmm, no games.  Too much beer...</li>
+    {% endif %}
+
     {% for game in page.games %}
     <li>{{ game }}</li>
     {% endfor %}
 </ul>
+
 <h2>Memories</h2>
 <ul>
+    {% if page.memories == null %}
+    <li>Hmm, no memories.  Too much beer...</li>
+    {% endif %}
+
     {% for memory in page.memories %}
     <li>{{ memory }}</li>
     {% endfor %}
