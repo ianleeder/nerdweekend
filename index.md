@@ -17,9 +17,12 @@ Details of poll dates here
 
   Embedding list inside table:
   https://stackoverflow.com/a/57904161/5329728
+
+  Set table column width:
+  https://stackoverflow.com/a/57420043/5329728
 -->
 
-| Date | Venue | Summary |
+| {::nomarkdown}<div style="width:175px">Date</div>{:/} | Venue | Summary |
 |---|---|---|
 {% for post in site.posts -%}
 | [{{ post.title }}]({{post.url}}) | {{post.venue}} | {{post.summary}} |
