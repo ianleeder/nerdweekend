@@ -3,11 +3,13 @@ layout: post
 title: "August 2021"
 date_range: "27-30 Aug 2021"
 venue: "Online (COVID)"
+games:
+  - "Stellaris"
+  - "Rimworld"
 memories:
-  - memory: "Ian 'isolated' at Toby's as a 'single person bubble'.  All others played online."
-  - memory: "Used VPN and Discord for audio"
-  - memory: "Rimworld"
-    related:
-      - related: "Toby's PC struggled and kept falling behind/out of sync."
-show_link: false
+  - "Ian 'isolated' at Toby's as a 'single person bubble'. <br>All others played online."
+  - "Used ZeroTier VPN and Discord for audio"
+  - "Toby's PC struggled with Rimsworld and kept falling behind/out of sync."
+  - "Dave ordered KFC delivered to Toby's house"
+summary: "Mostly remote, mostly Stellaris"
 ---
