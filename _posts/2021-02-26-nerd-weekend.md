@@ -10,5 +10,5 @@ games:
 memories:
   - "Smith forcing everyone to watch chicks with dicks game."
   - "Smith vomiting EVERYWHERE.  Couch.  Doorknob.  All day Sunday."
-summary: "Smith watching chicks with dicks,and having alcohol poisoning all day Sunday."
+summary: "Smith watching chicks with dicks, and having alcohol poisoning all day Sunday."
 ---
