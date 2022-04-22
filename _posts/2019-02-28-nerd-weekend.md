@@ -6,4 +6,5 @@ venue: "Toby's house"
 games:
 memories:
 summary:
+img_dir: "2019-02"
 ---
