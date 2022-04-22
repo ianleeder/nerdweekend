@@ -7,5 +7,7 @@ games:
   - "Hero Quest"
 memories:
   - "Smith did the shopping and bought all meat pizzas.<br>&quot;Ham and cheese is vegetarian right?&quot;"
-summary: "Smith bought vegetarian meat pizzas."
+  - "Hugh brought VR porn goggles.  Smith had to go and buy some after nerd weekend."
+  - "Smith immediately attacked Hugh in HeroQuest.  Before anyone had entered the board.<br>He just threw the dice and yelled &quot;I ATTACK HUGH!&quot; before the dice had even come to rest.<br>It wasn't even his turn."
+summary: "Smith bought vegetarian meat pizzas and attacked Hugh in HeroQuest."
 ---
