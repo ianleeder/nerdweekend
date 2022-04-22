@@ -8,6 +8,6 @@ games:
   - "Death Squared"
 memories:
   - "Ian attempted to set up a custom VPN server.  Did not allow player-player communication."
-  - "Steam games (Civ4) only allowed 4 players.  We struggled trying to find a 5-player game until Smith passed out"
+  - "Smith couldn't launch Stellaris.  Steam Civ4 only allowed 4 players.  We struggled trying to find a 5-player game until Smith passed out.  Then we played Stellaris while listening to him snore."
 summary: "Failed attempt at online VPN.<br>Couldn't get a 5-player Steam game working."
 ---
