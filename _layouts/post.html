@@ -3,11 +3,9 @@ layout: default
 ---
 
 <h1>Nerd Weekend {{ page.title }}</h1>
-<small>{{ page.date_range }}</small>
 
-<p class="view">by {{ page.author | default: site.author }}</p>
-
-<p>Venue: {{page.venue}}</p>
+<p><b>Date:</b> {{page.date_range}}</p>
+<p><b>Venue:</b> {{page.venue}}</p>
 
 <h2>Games</h2>
 <ul>
@@ -21,7 +19,21 @@ layout: default
     <li>{{ memory }}</li>
     {% endfor %}
 </ul>
+
+{% if page.img_dir %}
+<h2>Photographic Evidence</h2>
+<ul>
+    {% for static_file in site.static_files %}
+        {% if static_file.path contains page.img_dir %}
+            <li><img src="{{ static_file.path }}" alt="{{ static_file.name}}"/></li>
+        {% endif %}
+    {% endfor %}
+</ul>
+{% endif %}
+
 {{content}}
+
+
 
 See this page for a good idea for a photo gallery:<br>
 https://learn.cloudcannon.com/jekyll/photo-gallery/
