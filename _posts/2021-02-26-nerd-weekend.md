@@ -9,6 +9,7 @@ games:
   - "Stellaris"
 memories:
   - "Smith forcing everyone to watch chicks with dicks game."
-  - "Smith vomiting EVERYWHERE.  Couch.  Doorknob.  All day Sunday."
+  - "Smith vomiting EVERYWHERE.<br>  Couch. Sleeping bag. Doorknob.<br>Every 5 minutes during Ticket To Ride.<br>All day Sunday.  All the drive home."
+  - "KFC"
 summary: "Smith watching chicks with dicks, and having alcohol poisoning all day Sunday."
 ---
