@@ -13,6 +13,7 @@ memories:
   - "Off beers that tasted like honey."
   - "Cinnamon/honey bourbon?"
   - "Half a pigs head on the kitchen bench."
+  - "Power stayed on all weekend.  Went out 15 minutes after we left."
 summary: "Playing Civ4 to completion despite Smith's best intentions."
 img_dir: "2018-02"
 ---
