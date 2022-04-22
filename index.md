@@ -28,6 +28,7 @@ Details of poll dates here
 | [{{ post.title }}]({{post.url}}) {% if post.img_dir %}<br>(PICS) {% endif %} | {{post.venue}} | {{post.summary}} |
 {% endfor %}
 
+<!-- 
 <ul>
   {% for post in site.posts %}
     <li>
@@ -37,3 +38,4 @@ Details of poll dates here
     </li>
   {% endfor %}
 </ul>
+-->
