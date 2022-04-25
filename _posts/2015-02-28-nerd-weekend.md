@@ -6,6 +6,5 @@ venue: "Toby's house"
 games:
   - "Magic The Gathering"
 memories:
-  - "No Smith"
-summary: "No Smith"
+summary:
 ---
