@@ -7,6 +7,6 @@ games:
   - "Magic The Gathering"
   - "FIFA"
 memories:
- - "Deep frying inside Toby's house and stinking it up with oil"
+ - "Deep frying inside Toby's house and stinking it up with oil."
 summary: "Deep frying inside Toby's house"
 ---
