@@ -9,5 +9,6 @@ games:
 memories:
   - "First time playing Stellaris"
   - "Massive session of HeroQuest"
-summary: "New game: Stellaris"
+  - "Smith and Hugh facing off in HeroQuest for who would search a room for treasure/kill the last monster.<br>Eventually PVP ensues and everyone kills Smith and loots his gear."
+summary: "New game: Stellaris<br>A LOT of HeroQuest."
 ---
