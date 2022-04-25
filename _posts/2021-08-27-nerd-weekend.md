@@ -14,5 +14,4 @@ memories:
   - "Dave ordered KFC delivered to Toby's house"
   - "Dave requested we all do Friday-Monday (instead of Thursday-Sunday), then ghosted on Monday."
 summary: "Mostly remote, mostly Stellaris"
-img_dir: "2021-08"
 ---

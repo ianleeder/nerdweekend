@@ -7,5 +7,4 @@ games:
 memories:
   - "Hugh and his dick-shaped bottle opener"
 summary:
-img_dir: "2019-02"
 ---

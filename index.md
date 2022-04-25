@@ -25,7 +25,16 @@ Details of poll dates here
 | {::nomarkdown}<div style="width:175px">Date</div>{:/} | {::nomarkdown}<div style="width:175px">Venue</div>{:/}  | Summary |
 |---|---|---|
 {% for post in site.posts -%}
-| [{{ post.title }}]({{post.url}}) {% if post.img_dir %}<br>(PICS) {% endif %} | {{post.venue}} | {{post.summary}} |
+
+{% assign post_img_dir = post.path | slice: 7, 7 -%}
+{% assign post_img_exists = false -%}
+{%- for static_file in site.static_files -%}
+{% if static_file.path contains post_img_dir %}
+{% assign post_img_exists = true -%}
+{% endif %}
+{%- endfor -%}
+
+| [{{ post.title }}]({{post.url}}) {% if post_img_exists %}<br>(PICS) {% endif %}| {{post.venue}} | {{post.summary}} |
 {% endfor %}
 
 <!-- 
