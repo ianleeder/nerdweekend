@@ -17,5 +17,4 @@ memories:
   - "Smith ranting about footy - Goddard"
   - "Dead bird in the pool?"
 summary: "OTTD in Sorrento."
-img_dir: "2018-08"
 ---

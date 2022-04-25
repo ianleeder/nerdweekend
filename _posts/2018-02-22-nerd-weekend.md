@@ -15,5 +15,4 @@ memories:
   - "Power stayed on all weekend.  Went out 15 minutes after we left."
   - "Smith snuggling with alpacas"
 summary: "Playing Factorio all night until Smith had to get up for work."
-img_dir: "2018-02"
 ---
