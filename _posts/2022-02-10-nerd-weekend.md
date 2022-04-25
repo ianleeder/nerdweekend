@@ -14,5 +14,4 @@ memories:
   - "Dave not eating or drinking carbs.  Brought the smoker instead."
   - "Talisman lasted 6 hours.<br>Smith made it to the center multiple times.  And left again.<br>Toby turned into a toad.  Multiple times.  Frogstomp."
 summary: "4-player, no Hugh, Dune2, Talisman."
-img_dir: "2022-02"
 ---
