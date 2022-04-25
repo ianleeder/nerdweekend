@@ -11,6 +11,6 @@ games:
   - "FIFA"
 memories:
  - "Deep frying food.  Outside."
-summary: 
+summary: "Start of the 3-day nerd weekend"
 img_dir: "2016-02"
 ---
