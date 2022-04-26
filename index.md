@@ -5,9 +5,20 @@
 layout: default
 title: "Nerd Weekend!"
 ---
+
+# About
+
+We've done so many of these now, the memories are fading. This is a place to accumulate them.  If you remember anything I've missed, or have a photo to add, there is a link at the bottom of each page to email me (it will reference the current page) and I'll update it.
 # Current Proposal
 
-Details of poll dates here
+We said we'd try and do another nerd weekend as a make-up session for poor Hugh who missed the last one.  Let's see if we can cram one in before the next "regular" one in August.
+
+Click the doodle.  Click it!
+
+<a href="https://doodle.com/meeting/participate/id/aQWL8pqd" target="_blank">
+  <img src="/pics/doodle.png" width="100"/>
+</a>
+
 
 # History
 
