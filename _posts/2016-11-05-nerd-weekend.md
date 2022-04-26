@@ -10,7 +10,7 @@ games:
   - "Warlords II Deluxe"
 memories:
  - "Originally scheduled for 16 September.  Aborted for Vern's funeral."
- - "Toby bringing a TV"
+ - "Toby using a TV as a computer monitor."
  - "Hugh's first nerd weekend."
  - "Ian set up the original nerdweekend web page."
  - "Flat nightly nerd rate so we could leave accommodation money."
