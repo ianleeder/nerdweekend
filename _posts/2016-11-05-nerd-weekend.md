@@ -16,5 +16,5 @@ memories:
  - "Flat nightly nerd rate so we could leave accommodation money."
  - "We didn't come here to sleep!"
  - "Nam-ha and Hairy were possibles."
-summary: "Hugh's first nerd weekend."
+summary: "Hugh's first nerd weekend, Toby using TV as monitor."
 ---
