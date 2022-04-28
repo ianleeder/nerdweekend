@@ -8,7 +8,7 @@ games:
   - "Starcraft"
   - "ReVolt"
 memories:
-  - "https://www.facebook.com/events/10153239341219500"
+  - "<a href='https://www.facebook.com/events/10153239341219500'>Facebook Event</a>"
   - "According to FB event, possibly Steven Leeder and John Doorakkers!"
   - "Was after Ian's wisdom teeth operation"
 summary: "[V4.0]"
