@@ -8,7 +8,7 @@ games:
   - "Starcraft"
   - "ReVolt"
 memories:
-  - "https://www.facebook.com/events/10153233225994719"
+  - "<a href='https://www.facebook.com/events/10153233225994719'>Facebook Event</a>"
   - "Initially tried for 16-17 May 2009, but too many couldn't make it."
   - "Added Hugh to the nerd mix"
 summary: "[V2.0]"
