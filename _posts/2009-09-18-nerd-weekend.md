@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sep 2009 (V3.0)"
+title: "September 2009"
 date_range: "18-20 Sep 2009"
 venue: "Ian's house (Pakenham)"
 games:
@@ -16,5 +16,5 @@ memories:
   - "There were 7 of us crammed in the spare room at Ian's house."
   - "Luka ate a whole tub of tzatziki."
   - "Unreal Tournament: Hiding behind the teleporter with the impact hammer!" 
-summary: "Nerd Night V3.0 and Germans eating tzatziki"
+summary: "[V3.0] Eliott dicky desk and Germans eating tzatziki"
 ---
