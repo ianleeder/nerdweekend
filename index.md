@@ -11,7 +11,7 @@ title: "Nerd Weekend!"
 We've done so many of these now, the memories are fading. This is a place to accumulate them.  If you remember anything I've missed, or have a photo to add, there is a link at the bottom of each page to email me (it will reference the current page) and I'll update it.
 # Current Proposal
 
-_Doodle has updated and is a lot worse.  This is **technically** not Doodle, but I'll still call it that._
+_Doodle has updated and is a lot worse.  This is **technically** not Doodle but it's similar enough, and I'll still call it that._
 
 It's time to start talking about the next Nerd Weekend!
 
