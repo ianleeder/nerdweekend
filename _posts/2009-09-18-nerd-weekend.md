@@ -2,7 +2,7 @@
 layout: post
 title: "September 2009"
 date_range: "18-20 Sep 2009"
-venue: "Ian's house (Pakenham)"
+venue: "Ian's house"
 games:
   - "Civ2"
   - "Civ4"
