@@ -14,5 +14,6 @@ memories:
   - "Half a pigs head on the kitchen bench."
   - "Power stayed on all weekend.  Went out 15 minutes after we left."
   - "Smith snuggling with alpacas"
+  - "Smith playing with the thumb wheely-mouse."
 summary: "Playing Factorio all night until Smith had to get up for work."
 ---

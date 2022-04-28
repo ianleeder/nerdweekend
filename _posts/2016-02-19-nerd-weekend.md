@@ -11,5 +11,8 @@ games:
   - "FIFA"
 memories:
  - "Deep frying food.  Outside."
-summary: "Start of the 3-day nerd weekend"
+ - "Start of the 3-day nerd weekend."
+ - "First beer pyramid!"
+ - "Dim sim nachos"
+summary: "Dimmy nachos, beer pyramid, 3-day weekend."
 ---
