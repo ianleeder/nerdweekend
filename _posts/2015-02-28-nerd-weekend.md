@@ -6,5 +6,6 @@ venue: "Toby's house"
 games:
   - "Magic The Gathering"
 memories:
+  - "Smith and Toby having a &quot;side game&quot;."
 summary:
 ---
