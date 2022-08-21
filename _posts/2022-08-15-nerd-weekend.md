@@ -21,5 +21,8 @@ memories:
   - "Massive amount of pistachios!"
   - "Smith bought \"vegetarian\" pizza bases"
   - "Smith smoked a ham and some lamb ribs"
-summary: "Smith killing many RimWorld colonists."
+  - "Accidentally coined the term \"Beeramid\""
+  - "Awesome \"Canadian Coffees\" (coffee + CC)"
+
+summary: "Smith killing many RimWorld colonists. Beeramid!"
 ---
