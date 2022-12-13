@@ -11,13 +11,11 @@ title: "Nerd Weekend!"
 We've done so many of these now, the memories are fading. This is a place to accumulate them.  If you remember anything I've missed, or have a photo to add, there is a link at the bottom of each page to email me (it will reference the current page) and I'll update it.
 # Current Proposal
 
-_Doodle has updated and is a lot worse.  This is **technically** not Doodle but it's similar enough, and I'll still call it that._
-
-It's time to start talking about the next Nerd Weekend!
+It's time to start talking about the next Nerd Weekend - 2023!
 
 Click the doodle.  Click it!
 
-<a href="https://xoyondo.com/dp/FXW7VLzdnc7rIU4" target="_blank">
+<a href="https://xoyondo.com/dp/A4WUyBaLosuwsBy" target="_blank">
   <img src="/pics/doodle.png" width="100"/>
 </a>
 
