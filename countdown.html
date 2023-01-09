@@ -141,8 +141,11 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript">
+        let beerCrackAudio = new Audio('beer_crack.mp3');
+
         function pourBeer() {
-            console.log('yas');
+
+
             $('.pour').removeClass('end').addClass('pouring');
             $('.beer').addClass('fill');
             $('.head').addClass('fill');
@@ -154,6 +157,11 @@
                 $('.beer').removeClass('fill');
                 $('.head').removeClass('fill');
             }, 2000);
+        }
+
+        function crackBeer() {
+            beerCrackAudio.play();
+            setTimeout(pourBeer, 1000);
         }
     </script>
 </head>
@@ -168,7 +176,7 @@
     </div>
     <div class="container mt-3">
         <div class="row">
-            <button type="button" class="btn btn-warning" onclick="pourBeer()">Thirsty?</button>
+            <button type="button" class="btn btn-warning" onclick="crackBeer()">Thirsty?</button>
         </div>
     </div>
 </body>
