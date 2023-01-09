@@ -19,6 +19,7 @@
             margin: 0 auto;
             position: relative;
             margin-top: 70px;
+
         }
 
         #beer-container .beer {
@@ -28,11 +29,12 @@
             background: #fac92c;
             bottom: 0;
             height: 0;
-            transition: 1500ms ease-in;
+            transition: 10000ms ease-in;
         }
 
         #beer-container .beer.fill {
             height: 100%;
+            transition: 1500ms ease-in;
         }
 
         #beer-container .beer:after {
@@ -86,10 +88,11 @@
             left: 5px;
             border-radius: 50%;
             z-index: -1;
-            transition: 1600ms ease-in;
+            transition: 9500ms ease-in;
         }
 
         .head.fill {
+            transition: 1600ms ease-in;
             bottom: 82%;
         }
 
@@ -140,20 +143,18 @@
     <script type="text/javascript">
         function pourBeer() {
             console.log('yas');
-            $('.pour').addClass('pouring');
+            $('.pour').removeClass('end').addClass('pouring');
             $('.beer').addClass('fill');
             $('.head').addClass('fill');
             setTimeout(function () {
                 $('.pour').addClass('end');
             }, 1500);
-        }
-        /*
-        $(function () {
+
             setTimeout(function () {
-                pourBeer();
-            }, 10000);
-        });
-        */
+                $('.beer').removeClass('fill');
+                $('.head').removeClass('fill');
+            }, 2000);
+        }
     </script>
 </head>
 
