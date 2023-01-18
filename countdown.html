@@ -143,7 +143,7 @@
     </style>
 
     <script type="text/javascript">
-        let beerCrackAudio = new Audio('beer_crack.mp3');
+        let beerCrackAudio = new Audio('/assets/beer_crack.mp3');
 
         function pourBeer() {
             $('.pour').removeClass('end').addClass('pouring');
@@ -197,7 +197,6 @@
 
             // Set some date in the future. In this case, it's always Jan 1
             var futureDate = new Date(2023, 1, 10, 20, 0, 0);
-            console.log(futureDate);
             // Calculate the difference in seconds between the future and current date
             var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
             // Instantiate a coutdown FlipClock
