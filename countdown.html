@@ -1,0 +1,221 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/flipclock/flipclock.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/assets/flipclock/flipclock.min.js"></script>
+    <style>
+        body {
+            background: #68a0b7;
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: content-box !important;
+        }
+
+        #beer-container {
+            width: 100px;
+            height: 200px;
+            margin: 0 auto;
+            position: relative;
+            margin-top: 70px;
+
+        }
+
+        #beer-container .beer {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: #fac92c;
+            bottom: 0;
+            height: 0;
+            transition: 10000ms ease-in;
+        }
+
+        #beer-container .beer.fill {
+            height: 100%;
+            transition: 1500ms ease-in;
+        }
+
+        #beer-container .beer:after {
+            content: '';
+            position: absolute;
+            width: 50%;
+            height: 100%;
+            background: #ea9602;
+            right: 0;
+        }
+
+        .glass {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: solid 10px #e8e4d9;
+            border-top: solid 5px #e8e4d9;
+            border-bottom: solid 30px #e8e4d9;
+            border-radius: 5px;
+            transform: perspective(500px) rotateX(-30deg);
+        }
+
+        .glass:before,
+        .glass:after {
+            content: '';
+            position: absolute;
+            border-radius: 10px;
+            background: #fff;
+            width: 10px;
+        }
+
+        .glass:before {
+            height: 20%;
+            left: 10px;
+            top: 5%;
+            z-index: 1;
+        }
+
+        .glass:after {
+            height: 70%;
+            right: 10px;
+            top: 5%;
+        }
+
+        .head {
+            position: absolute;
+            width: 60%;
+            height: 60px;
+            background: #fff;
+            bottom: -5px;
+            left: 5px;
+            border-radius: 50%;
+            z-index: -1;
+            transition: 9500ms ease-in;
+        }
+
+        .head.fill {
+            transition: 1600ms ease-in;
+            bottom: 82%;
+        }
+
+        .head:before,
+        .head:after {
+            content: '';
+            position: absolute;
+            background: #fff;
+            border-radius: 50%;
+        }
+
+        .head:before {
+            width: 30px;
+            height: 30px;
+            left: 50px;
+            top: 15px;
+        }
+
+        .head:after {
+            width: 40px;
+            height: 40px;
+            left: 67px;
+            top: 9px;
+        }
+
+        .pour {
+            position: absolute;
+            width: 20px;
+            height: 200%;
+            background: #fac92c;
+            border-radius: 20px;
+            left: 10px;
+            z-index: -1;
+            bottom: 150%;
+            transition: 300ms ease-in;
+        }
+
+        .pour.pouring {
+            bottom: 0%;
+        }
+
+        .pour.end {
+            height: 0;
+        }
+    </style>
+
+    <script type="text/javascript">
+        let beerCrackAudio = new Audio('/assets/beer_crack.mp3');
+
+        function pourBeer() {
+            $('.pour').removeClass('end').addClass('pouring');
+            $('.beer').addClass('fill');
+            $('.head').addClass('fill');
+            setTimeout(function () {
+                $('.pour').addClass('end');
+            }, 1500);
+
+            setTimeout(function () {
+                $('.beer').removeClass('fill');
+                $('.head').removeClass('fill');
+            }, 2000);
+        }
+
+        function crackBeer() {
+            beerCrackAudio.play();
+            setTimeout(pourBeer, 1000);
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div style="position: fixed;">
+            <a href="/">
+                <img src="/assets/img/back.png" height="50px" width="auto">
+            </a>
+            &nbsp;
+            <span style="font-size: 1.5em;">Back</span>
+        </div>
+    </div>
+    <div id="beer-container">
+        <div class="glass">
+            <div class="beer"></div>
+        </div>
+        <div class="head"></div>
+        <div class="pour"></div>
+    </div>
+    <div class="container mt-5 text-center">
+        <div class="row justify-content-center">
+            <button type="button" class="btn btn-warning col-lg-3" onclick="crackBeer()">So thirsty...</button>
+        </div>
+        <div class="row justify-content-center mt-3">
+            <h1>Countdown to nerd weekend</h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="clock" style="margin:2em;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var clock;
+
+        $(document).ready(function () {
+            // Grab the current date
+            var currentDate = new Date();
+
+            // Set some date in the future. In this case, it's always Jan 1
+            var futureDate = new Date(2023, 1, 10, 20, 0, 0);
+            // Calculate the difference in seconds between the future and current date
+            var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+            // Instantiate a coutdown FlipClock
+            clock = $('.clock').FlipClock(diff, {
+                clockFace: 'DailyCounter',
+                countdown: true,
+                showSeconds: false
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -9,15 +9,18 @@ title: "Nerd Weekend!"
 # About
 
 We've done so many of these now, the memories are fading. This is a place to accumulate them.  If you remember anything I've missed, or have a photo to add, there is a link at the bottom of each page to email me (it will reference the current page) and I'll update it.
+
 # Current Proposal
 
-It's time to start talking about the next Nerd Weekend - 2023!
+| Doodle | Countdown |
+|-------|--------|
+| Doodle for Nerd Weekend - 2023 | Click the beer to view the countdown |
+| <a href="https://xoyondo.com/dp/A4WUyBaLosuwsBy" target="_blank"><img src="/assets/img/doodle.png" width="100"/></a> | <a href="/countdown.html"><img src="/assets/img/iron_jack.png" width="100"/></a>|
 
-Click the doodle.  Click it!
 
-<a href="https://xoyondo.com/dp/A4WUyBaLosuwsBy" target="_blank">
-  <img src="/pics/doodle.png" width="100"/>
-</a>
+
+
+
 
 # History
 
