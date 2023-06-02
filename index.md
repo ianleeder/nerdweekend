@@ -14,13 +14,8 @@ We've done so many of these now, the memories are fading. This is a place to acc
 
 | Doodle | Countdown |
 |-------|--------|
-| Doodle for Nerd Weekend - 2023 | Click the beer to view the countdown |
-| <a href="https://xoyondo.com/dp/A4WUyBaLosuwsBy" target="_blank"><img src="/assets/img/doodle.png" width="100"/></a> | <a href="/countdown.html"><img src="/assets/img/iron_jack.png" width="100"/></a>|
-
-
-
-
-
+| Doodle for Nerd Weekend - 2023.2 | Click the beer to view the countdown |
+| <a href="https://xoyondo.com/dp/68MIz0GpM1NxdI0" target="_blank"><img src="/assets/img/doodle.png" width="100"/></a> | <a href="/countdown.html"><img src="/assets/img/iron_jack.png" width="100"/></a>|
 
 # History
 
@@ -49,15 +44,3 @@ We've done so many of these now, the memories are fading. This is a place to acc
 
 | [{{ post.title }}]({{post.url}}) {% if post_img_exists %}<br>(PICS) {% endif %}| {{post.venue}} | {{post.summary}} |
 {% endfor %}
-
-<!-- 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a><br>
-      <em>{{post.venue}}</em><br>
-      {{post.summary}}
-    </li>
-  {% endfor %}
-</ul>
--->
