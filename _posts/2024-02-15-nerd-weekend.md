@@ -17,7 +17,7 @@ memories:
   - "Everyone tried out Ian's VR headset.  Smith danced around like an excited emu"
   - "Hugh brought back sake from Japan in a penis bottle"
   - "Toby has a snake"
-  - "Bit of a tear-fest listening to <a href='https://www.youtube.com/watch?v=fSKQRDq3RkM'>blink-182 - One More Time</a>"
+  - "Bit of a tear-fest listening to <a href='https://www.youtube.com/watch?v=fSKQRDq3RkM' target='_blank'>blink-182 - One More Time</a>"
 
-summary: "Smith - I’ll homosex him to death!"
+summary: "Ning-a-ning-a-ning"
 ---
