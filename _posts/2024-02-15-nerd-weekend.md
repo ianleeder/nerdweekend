@@ -9,7 +9,7 @@ games:
   - "Revolt"
 memories:
   - "Smith imitating Indian language with &quot;ning-a-ning&quot;"
-  - "Dave putting on Indian music that goes <a href='https://www.youtube.com/watch?v=x9WO2ieJMYk'>ning-a-ning</a> and driving Smith nuts"
+  - "Dave putting on Indian music that goes <a href='https://www.youtube.com/watch?v=x9WO2ieJMYk' target='_blank'>ning-a-ning</a> and driving Smith nuts"
   - "Plenty of RimWorld"
   - "Even though very few of Smith's colonists died, he still had a room FULL of dead bodies"
   - "Dave bought KFC and we ate far too much on the first night"
