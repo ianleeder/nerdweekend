@@ -17,7 +17,7 @@ memories:
   - "Everyone tried out Ian's VR headset.  Smith danced around like an excited emu"
   - "Hugh brought back sake from Japan in a penis bottle"
   - "Toby has a snake"
-  - [blink-182 - One More Time](https://www.youtube.com/watch?v=fSKQRDq3RkM)
+  - "Bit of a tear-fest listening to [blink-182 - One More Time](https://www.youtube.com/watch?v=fSKQRDq3RkM)"
 
 summary: "Smith - I’ll homosex him to death!"
 ---
