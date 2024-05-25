@@ -14,8 +14,8 @@ We've done so many of these now, the memories are fading. This is a place to acc
 
 | Doodle | Countdown |
 |-------|--------|
-| Doodle for Nerd Weekend - 2024.1 | Click the beer to view the countdown |
-| <a href="https://xoyondo.com/dp/6vid83qfmqahaz9" target="_blank"><img src="/assets/img/doodle.png" width="100"/></a> | <a href="/countdown.html"><img src="/assets/img/iron_jack.png" width="100"/></a>|
+| Doodle for Nerd Weekend - 2024.2 | Click the beer to view the countdown |
+| <a href="https://xoyondo.com/dp/w8o3gr4qa3bgt00" target="_blank"><img src="/assets/img/doodle.png" width="100"/></a> | <a href="/countdown.html"><img src="/assets/img/iron_jack.png" width="100"/></a>|
 
 # History
 
