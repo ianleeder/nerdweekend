@@ -6,6 +6,10 @@ layout: default
 title: "Nerd Weekend!"
 ---
 
+# Acknowledgment of Nerd Country
+
+> I acknowledge the traditional owners (Google) of the personal location data I generate today, and to all drunken computer nerds past, present, and emerging rapidly tonight.
+
 # About
 
 We've done so many of these now, the memories are fading. This is a place to accumulate them.  If you remember anything I've missed, or have a photo to add, there is a link at the bottom of each page to email me (it will reference the current page) and I'll update it.

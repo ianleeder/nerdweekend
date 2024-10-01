@@ -10,7 +10,7 @@ layout: default
 <h2>Games</h2>
 <ul>
     {% if page.games == null %}
-    <li>Hmm, no games.  Too much beer...</li>
+    <li>Hmm, no games. Too much beer...</li>
     {% endif %}
 
     {% for game in page.games %}
@@ -21,7 +21,7 @@ layout: default
 <h2>Memories</h2>
 <ul>
     {% if page.memories == null %}
-    <li>Hmm, no memories.  Too much beer...</li>
+    <li>Hmm, no memories. Too much beer...</li>
     {% endif %}
 
     {% for memory in page.memories %}
@@ -48,21 +48,25 @@ layout: default
 <!-- Only display "Photographic Evidence" section if images exist -->
 {% if post_img_exists %}
 <h2>Photographic Evidence</h2>
-<div class ="image-gallery">
+<div class="image-gallery">
     <!-- Iterate all static files -->
     {% for static_file in site.static_files %}
     <!-- If the file contains the post_img_dir -->
     {% if static_file.path contains post_img_dir %}
     <div class="box">
         <a href="{{ static_file.path }}">
-            <img src="{{ static_file.path }} " alt="{{ static_file.name }}"  class="img-gallery" />
+            {% if static_file.name contains ".mov" %}
+            <img src="/assets/img/movie_icon.png" alt="{{ static_file.name }}" class="img-gallery" />
+            {% else %}
+            <img src="{{ static_file.path }}" alt="{{ static_file.name }}" class="img-gallery" />
+            {% endif %}
         </a>
     </div>
     {% endif %}
     {% endfor %}
 </div>
 {% endif %}
-<br/><br/><br/>
+<br /><br /><br />
 <h3>Updates? Missing memories?</h3>
 If you notice anything incorrect, or want to add memories/games/photos, please use this link to <a href="mailto:{{ site.email }}?subject=Update nerd site: {{ page.title }}">email me</a>.
 {{content}}
