@@ -16,7 +16,7 @@ memories:
   - "Dave getting torn apart by 2 cougars at the same time."
   - "Toby’s heatstroke in 58 degree biome racing Smith extreme malnutrition."
   - "Ian finally losing one game of RimWorld because his colonist walked through fire and was extremely flammable"
-  - "Smith insisting on <insert action> before feeding his colonist.  For example planting 100 corn, tiling an entire house, building a beach-house with a pier"
+  - "Smith insisting on &lt;insert action&gt; before feeding his colonist.  For example planting 100 corn, tiling an entire house, building a beach-house with a pier"
   - "Smith micro-managing his colonists horribly, setting tasks like &quot;Bed Rest&quot; to priority 4, and insisting they can only do it if he tells them to"
   - "Smith falling over from malnutrition without noticing any warning signs."
   - "Smith insisting that a skill of 0 constitutes &quot;Incapable of x&quot;.  In the same way that Smith himself is &quot;Incapable of playing RimWorld&quot;"
