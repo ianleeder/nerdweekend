@@ -55,44 +55,6 @@ layout: default
     {% if static_file.path contains post_img_dir %}
     <div class="box">
         <a href="{{ static_file.path }}">
-            {% if static_file.name contains ".mov" %}
-            <img src="/assets/img/movie_icon.png" alt="{{ static_file.name }}" class="img-gallery" />
-            {% else %}
-            <img src="{{ static_file.path }}" alt="{{ static_file.name }}" class="img-gallery" />
-            {% endif %}
-        </a>
-    </div>
-    {% endif %}
-    {% endfor %}
-</div>
-{% endif %}
-
-<h2>Images take 2</h2>
-
-<!--
-    Take the page path (something like _posts/2022-02-10-nerd-weekend.md)
-    And substring to extract yyyy-mm.  Assign it to post_date.
- -->
-{% assign post_date = page.path | slice: 7, 7 %}
-<h4>Post date {{ post_date }}</h4>
-
-<!-- Filter all static files for only those where the path contains the this posts date -->
-{% assign post_files = site.static_files | where:"path",post_date %}
-<h4>Post files size {{ post_files.size }}</h4>
-{{ post_files | json }}
-<h4>Static files size {{ site.static_files.size }}</h4>
-{% for static_file in site.static_files %}
-<span>{{ static_file.path }}</span> - <span>{{ static_file.name }}</span>
-{% endfor %}
-
-
-{% if post_files.size > 0 %}
-<h2>Photographic Evidence</h2>
-<div class="image-gallery">
-    <!-- For each image -->
-    {% for static_file in post_files %}
-    <div class="box">
-        <a href="{{ static_file.path }}">
             {% if static_file.name contains ".MOV" %}
             <img src="/assets/img/movie_icon.png" alt="{{ static_file.name }}" class="img-gallery" />
             {% else %}
@@ -100,6 +62,7 @@ layout: default
             {% endif %}
         </a>
     </div>
+    {% endif %}
     {% endfor %}
 </div>
 {% endif %}
