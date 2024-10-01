@@ -70,8 +70,10 @@ layout: default
 <h2>Images take 2</h2>
 
 {%
+#########
 # Take the page path (something like _posts/2022-02-10-nerd-weekend.md)
 # And substring to extract yyyy-mm. Assign it to post_date.
+#########
 %}
 {% assign post_date = page.path | slice: 7, 7 %}
 
