@@ -81,7 +81,10 @@ layout: default
 <h4>Post files size {{ post_files.size }}</h4>
 {{ post_files | json }}
 <h4>Static files size {{ site.static_files.size }}</h4>
-{{ site.static_files | json }}
+{% for static_file in site.static_files %}
+<span>{{ static_file.path }}</span> - <span>{{ static_file.name }}</span>
+{% endfor %}
+
 
 {% if post_files.size > 0 %}
 <h2>Photographic Evidence</h2>
