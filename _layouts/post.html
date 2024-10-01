@@ -74,9 +74,14 @@ layout: default
     And substring to extract yyyy-mm.  Assign it to post_date.
  -->
 {% assign post_date = page.path | slice: 7, 7 %}
+<h4>Post date {{ post_date }}</h4>
 
 <!-- Filter all static files for only those where the path contains the this posts date -->
 {% assign post_files = site.static_files | where:"path",post_date %}
+<h4>Post files size {{ post_files.size }}</h4>
+{{ post_files | json }}
+<h4>Static files size {{ site.static_files.size }}</h4>
+{{ site.static_files | json }}
 
 {% if post_files.size > 0 %}
 <h2>Photographic Evidence</h2>
