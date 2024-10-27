@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "September 2024"
-date_range: "26-29 Feb 2024"
+date_range: "26-29 Sept 2024"
 venue: "Toby's house"
 games:
   - "RimWorld"
