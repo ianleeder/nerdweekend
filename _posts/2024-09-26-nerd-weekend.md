@@ -26,5 +26,9 @@ memories:
   - "Smith standing still in Doom and getting belligerent when given advice not to"
   - "Toby raising so many ducks and chickens that he couldn't keep up with them to kill them all. Hugh attempting to take them all, and taking 30 minutes to create the caravan (see pic)."
 
+videos:
+  - "IJ1lJQ6nWkg"
+  - "HnJhUHI1yHw"
+
 summary: "Rapid-fire Rim, with a final score Smith 11, everyone else 1 or 2"
 ---
