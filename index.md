@@ -18,7 +18,7 @@ We've done so many of these now, the memories are fading. This is a place to acc
 
 | Doodle | Countdown |
 |-------|--------|
-| Doodle for Nerd Weekend - 2025.1 | Click the beer to view the countdown |
+| Doodle for Nerd Weekend - 2025.2 | Click the beer to view the countdown |
 | <a href="https://xoyondo.com/dp/k44i2xtv5m9xbkd" target="_blank"><img src="/assets/img/doodle.png" width="100"/></a> | <a href="/countdown.html"><img src="/assets/img/iron_jack.png" width="100"/></a>|
 
 # History
