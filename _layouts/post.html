@@ -29,6 +29,16 @@ layout: default
     {% endfor %}
 </ul>
 
+{% if page.videos != null %}
+<h2>Videographic Evidence</h2>
+{% for video in page.videos %}
+<iframe width="420" height="315" src="https://www.youtube.com/embed/{{ video }}">
+</iframe>
+{% endfor %}
+{% endif %}
+
+
+
 <!--
     Take the page path (something like _posts/2022-02-10-nerd-weekend.md)
     And substring to extract yyyy-mm.  Assign it to post_img_dir.

@@ -20,5 +20,9 @@ memories:
   - "Mount Your Friends quickly became a fan favorite, with Toby PISSING himself laughing at it on Friday night (see pics and videos)"
   - "Hugh setting up custom skins for Mount Your Friends, including pics of our faces"
 
+videos:
+  - "sM8Ht3rGJb8"
+  - "Upm31VUfzDc"
+  
 summary: "Toby wetting himself at Mount Your Friends"
 ---

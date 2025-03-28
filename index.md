@@ -46,5 +46,5 @@ We've done so many of these now, the memories are fading. This is a place to acc
 {% endif %}
 {%- endfor -%}
 
-| [{{ post.title }}]({{post.url}}) {% if post_img_exists %}<br>(PICS) {% endif %}| {{post.venue}} | {{post.summary}} |
+| [{{ post.title }}]({{post.url}}) {% if page.videos != null %}<br> (VIDS) {% endif %} {% if post_img_exists %}<br>(PICS) {% endif %}| {{post.venue}} | {{post.summary}} |
 {% endfor %}
