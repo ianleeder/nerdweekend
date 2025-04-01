@@ -16,6 +16,7 @@ memories:
   - "Hugh had no power all day on Friday"
   - "Ian had to leave all day Saturday for a family event"
   - "Toby was hung over all day Saturday"
+  - "When Ian told Josephine that we had been playing RimWorld, she asked &quot;Have you harvested anyone's lungs?"
   - "Ian set up a timed delivery for a gift of the game &quot;Mount Your Friends&quot; to everyone"
   - "Mount Your Friends quickly became a fan favorite, with Toby PISSING himself laughing at it on Friday night (see pics and videos)"
   - "Hugh setting up custom skins for Mount Your Friends, including pics of our faces"
