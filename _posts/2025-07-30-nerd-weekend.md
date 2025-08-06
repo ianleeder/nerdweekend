@@ -8,6 +8,8 @@ games:
   - "Factorio"
 memories:
   - "Hugh had a bidet/arse-washer toilet seat, with heated water, pulsing jet, and laser-targeting"
+  - "Smith didn't bring any batteries for the wireless mouse, or any cables for the monitor. Even after Ian provided a video cable <em>and</em> a power cable, Smith finally realised the monitor needed a powerpack."
+  - "Toby sat on top of 3 couch cushions to elevate himself high enough above the makeshift mousepad"
   - "Smith was on the online dating apps, with Dave and Hugh having a crack. Yuko was very interested in this..."
   - "Yuko had so much fun swiping on Smith's dating app, she wanted to see what it looked like when swiping men. So she created an online dating profile (catfishing with photos from 10 years ago)."
   - "Yuko had so much fun with her own dating profile, she started swiping yes on matches. I don't think she fully understood there was a real man on the other end getting excited to match with a pretty young lady. Smith did not approve."
