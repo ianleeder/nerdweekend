@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "July 2025"
+title: "August 2025"
 date_range: "31-03 Aug 2025"
-venue: "Toby's house"
+venue: "Hugh's house (Sunbury)"
 games:
   - "RimWorld"
   - "Factorio"
